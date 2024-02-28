@@ -4,7 +4,7 @@ class ListsController < ApplicationController
   end
 
   def new
-    @movies = Movie.all
+    # @movies = Movie.all
     @list = List.new
   end
 
