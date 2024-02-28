@@ -1,0 +1,8 @@
+<h1>List Index View</h1>
+
+<ul>
+  <% @lists.each do |list| %>
+    <li><%= list.name %></li>
+    <li><%#= list.movie %></li>
+  <% end %>
+</ul>

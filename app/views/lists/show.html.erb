@@ -1,0 +1,16 @@
+<h1>Show List Detials</h1>
+
+<p><%= @list.name %></p>
+
+<ul><% @list.movies.each do |movie| %>
+    <li>Title: <%= movie.title %></li>
+    <li>Overview: <%= movie.overview %></li>
+    <li>Poster: <%= movie.poster_url %></li>
+    <li>Rating: <%= movie.rating %></li>
+  <% end %>
+</ul>
+
+<ul><% @list.bookmarks.each do |bookmark| %>
+    <li>Bookmarked: <%= bookmark.comment %></li>
+  <% end %>
+</ul>

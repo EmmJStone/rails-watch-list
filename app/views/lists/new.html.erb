@@ -1,0 +1,15 @@
+<h1>Create a New List View</h1>
+
+<%# add a simple form for the user to populate with the list name %>
+
+<%= simple_form_for(@list) do |f| %>
+<%= f.input :name %>
+<%= f.submit %>
+<% end %>
+
+<p>Choose which movie to bookmark to your list</p>
+<ul>
+  <% @movies.each do |movie| %>
+    <li><%= movie.title %></li>
+  <% end %>
+</ul>
