@@ -80,3 +80,6 @@ gem "simple_form"
 
 #dotenv gem for key security
 gem "dotenv-rails"
+
+#cloudinary for images
+gem "cloudinary"
