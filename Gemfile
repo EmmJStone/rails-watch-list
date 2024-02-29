@@ -77,3 +77,6 @@ gem "font-awesome-sass", "~> 6.1"
 
 #form builder
 gem "simple_form"
+
+#dotenv gem for key security
+gem "dotenv-rails"
