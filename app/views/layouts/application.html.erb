@@ -8,11 +8,12 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
-    
+
   </head>
 
   <body>
-    <div class="container pt-5">
+    <%# <% if current_page lists_path() %>
+    <%# <div class="container pt-5"> %>
       <%= yield %>
     </div>
   </body>
